@@ -1,50 +1,85 @@
 * {
     background-color: #beddba;
     font-family:'Gill Sans', 'Gill Sans MT', sans-serif;
+    box-sizing: border-box;
 }
 .maintitle {
     font-size: 50px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    color: #033017;
 }
 
 .content{
-
+    
 }
 
-.list{
-
+.recipes{
+    color: #033017;
+    font-size: 20px;
+    background-color: #fafcfa;
 }
+
+
 
 /*  STEAK FRITES & TUNA BOWL  */
+
+.back{
+    display: block;
+    margin: 20px;
+    color: #033017;
+}
 .title{
    font-family: 'Courier New', Courier, monospace;
    font-size: 40px;
    font-weight: bold;
+   color: #033017;
+   margin: 20px;
 }
 
 .img{
     width: 200px;
     display: block;
     margin:0 auto;
+    border: 2px solid #033017;
+    border-radius: 15px;
 }
 
 .contentrecipe{
-
+    text-align: center;
 }
 
 .subtitle{
-
+    color: #033017;
+    margin-left: 20px;
+    font-size: 20px;
 }
-
-.container{
-    background-color: #fafcfa;
-    padding: 20px;
+li{
     margin: 10px;
 }
+.container, .list, li, ol{
+    background-color: #fafcfa;
+}
+.container{
+    max-width: 900px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgba(77, 124, 71, 0.5);
+}
 
+.list{
+    height: auto;
+    
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+}
 
+#indexlist{
+    border: 2px solid #033017;
+    max-width: 400px;
+}
 
 
 
